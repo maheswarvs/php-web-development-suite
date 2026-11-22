@@ -1,9 +1,0 @@
-# Optional Render Blueprint: New > Blueprint, then pick this repository.
-services:
-  - type: web
-    name: php-interactive-suite
-    runtime: docker
-    plan: free
-    dockerfilePath: ./Dockerfile
-    dockerContext: .
-    healthCheckPath: /
